@@ -1,4 +1,3 @@
-if (device) {
   function generateHWID() {
     const navigatorInfo = window.navigator;
     const screenInfo = window.screen;
@@ -1527,4 +1526,4 @@ if (device) {
   }
   const hwid = generateHWID();
   verifyHWID(hwid);
-}
+
