@@ -1,3 +1,4 @@
+let device = true
 (function (t, n) {
   if (typeof exports == "object" && typeof module == "object") {
     module.exports = n();
